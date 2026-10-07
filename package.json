@@ -1,0 +1,25 @@
+{
+  "name": "vue-ecosystem-cookbook",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Интерактивный справочник по Vue и его экосистеме",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "typecheck": "vue-tsc --noEmit",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@vueuse/core": "^13.0.0",
+    "pinia": "^3.0.3",
+    "vue": "^3.5.13",
+    "vue-router": "^4.5.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.2.1",
+    "typescript": "~5.7.3",
+    "vite": "^6.2.0",
+    "vue-tsc": "^2.2.0"
+  }
+}
